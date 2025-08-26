@@ -32,7 +32,7 @@ Public Class StaffForm
             cmd.Parameters.AddWithValue("@L_Name", txtLName.Text)
             cmd.Parameters.AddWithValue("@Address", txtAddress.Text)
             cmd.Parameters.AddWithValue("@Tel", txtTel.Text)
-            cmd.Parameters.AddWithValue("@DOB", txtDOB.Text)          ' ควรเป็น DateTime nahee the killer yed hee AMbuttacum kuylek
+            cmd.Parameters.AddWithValue("@DOB", txtDOB.Text)          ' ควรเป็น DateTime nahee the killer yed hee AMbuttacum kuylek BigDick
             cmd.Parameters.AddWithValue("@Sex", txtSex.Text)
             cmd.Parameters.AddWithValue("@Position", txtPosition.Text)
             cmd.Parameters.AddWithValue("@Salary", txtSalary.Text)
